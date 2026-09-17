@@ -4,6 +4,8 @@
 
 <img width="1916" height="1115" alt="sicily writing" src="https://github.com/user-attachments/assets/6cb7d49e-a7cc-448b-b016-49a9a9f5426e" />
 
+
+
 Due 9/16: First build in Touch Designer!
 
 I prompted Claude Code to create a sparkly magic wand effect with my index finger. It used these operators to perform the interaction:
