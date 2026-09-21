@@ -209,6 +209,12 @@ This one could translate well into a certain brand if the critter itself was the
 
 If this were at an event with multiple people, this interaction could create a "garden" of everyone who interacted. The user selects a seed once, and they "plant themselves" in the shared garden.
 
+# Top 3 Concepts
+
+## Plant yourself
+## Tap & shift filters
+## Puppeteer
+
 
 
 # TouchDesigner Project Examples
