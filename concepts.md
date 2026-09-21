@@ -86,7 +86,7 @@ At the end of this you get a sort of painting of you speaking (it would be reall
 
  
 
-6. Puppet Strings 
+6. Puppeteer 
 
  
 
@@ -194,6 +194,22 @@ How the viewer knows: The creature visibly follows their movements right away. T
 
 <img width="410" height="590" alt="concepts 2" src="https://github.com/user-attachments/assets/f6b8220f-6b73-4f12-a084-e863c1b0071e" />
 <img width="410" height="590" alt="concepts 1" src="https://github.com/user-attachments/assets/07cbbea5-5400-4925-80a5-126b61f78145" />
+
+# Using these ideas in a branding context?
+
+## Feed the Critter
+
+This one could translate well into a certain brand if the critter itself was the mascot, and the items being "fed" to it by the user are the product being sold.
+
+## Color Thief 
+
+"Color Thief" could turn into "Product Thief". For example, if it was being used by Adidas, different Adidas products could be falling from the top of the screen, and if the user taps on them, it lets them simulate trying them on. This could also work for any brand that has different colors for products (beauty,fashion) and could let someone figure out their color season by "trying on" a fill of color that corresponds with the company's products.
+
+## Plant yourself
+
+If this were at an event with multiple people, this interaction could create a "garden" of everyone who interacted. The user selects a seed once, and they "plant themselves" in the shared garden.
+
+
 
 # TouchDesigner Project Examples
 
