@@ -189,3 +189,27 @@ What changes: A cute creature on screen watches the viewer and copies their move
  
 
 How the viewer knows: The creature visibly follows their movements right away. The slight delay makes it clear that the user is being copied. 
+
+
+
+<img width="1640" height="2360" alt="concepts 2" src="https://github.com/user-attachments/assets/f6b8220f-6b73-4f12-a084-e863c1b0071e" />
+<img width="1640" height="2360" alt="concepts 1" src="https://github.com/user-attachments/assets/07cbbea5-5400-4925-80a5-126b61f78145" />
+
+# TouchDesigner Project Examples
+
+https://www.behance.net/gallery/89921413/Interactive-TouchDesigner-Kinect-Project?tracking_source=search_projects|interaction+installation+touchdesigner&l=2 
+
+- Input: video recording/motion
+- Output: Visual feedback
+
+
+https://www.behance.net/gallery/130872159/-JARDIN-Interactive-Installation?tracking_source=search_projects|interaction+installation+touchdesigner&l=5 
+
+- Input: motion
+- Output: visual and audio
+
+
+https://www.design-io.com/projects/connectedworlds 
+
+- Input: motion
+- Output: visual 
