@@ -1,4 +1,4 @@
-Pop and Shift 
+1. Pop and Shift 
 
  
 
@@ -14,7 +14,7 @@ How the viewer knows: The bubble hopefully reads as "things to pop," so the firs
 
  
 
-Draw With the Computer 
+2. Draw With the Computer 
 
 Input: Webcam or mouse, hand/motion tracking 
 
@@ -30,7 +30,7 @@ How the viewer knows: A blank "canvas" area and a visible cursor/trail following
 
  
 
-Speech to Song 
+3. Speech to Song 
 
 Input: Microphone (rhythm/amplitude from any sound — talking, singing, humming, clapping) 
 
@@ -50,7 +50,7 @@ How the viewer knows: Making a sound produces an immediate, audible playback mat
 
  
 
-Stretch Break Mirror 
+4. Stretch Break Mirror 
 
  
 
@@ -66,7 +66,7 @@ How the viewer knows: The outline is a "match this shape" cue.
 
  
 
-Everything You Say, Drawn 
+5. Everything You Say, Drawn 
 
 Input: Microphone (voice/amplitude and pitch) 
 
@@ -84,7 +84,7 @@ At the end of this you get a sort of painting of you speaking (it would be reall
 
  
 
-Puppet Strings 
+6. Puppet Strings 
 
  
 
@@ -102,7 +102,7 @@ How the viewer knows: The initial full-body view establishes the camera interact
 
  
 
-Catch the bugs 
+7. Catch the bugs 
 
 Input: Webcam, motion/hand tracking 
 
@@ -118,7 +118,7 @@ How the viewer knows: the viewer knows to try to catch the bugs, because as soon
 
  
 
-Feed the Critter 
+8. Feed the Critter 
 
 Input: Hand tracking  
 
@@ -134,7 +134,7 @@ How the viewer knows: The creature looks toward nearby objects and opens its mou
 
  
 
-The Floor Is Lava 
+9. The Floor Is Lava 
 
 Input: Webcam/pose tracking 
 
@@ -150,7 +150,7 @@ How the viewer knows: It will feel like a video game pattern they are hopefully 
 
  
 
-Plant Yourself 
+10. Plant Yourself 
 
 Input: Hand tracking  
 
@@ -164,7 +164,7 @@ How the viewer knows: A seed appears wherever the viewer places their hand, then
 
  
 
-Color Thief 
+11. Color Thief 
 
 Input: Hand tracking  
 
@@ -176,7 +176,7 @@ How the viewer knows: The objects visibly fall toward them, and touching one imm
 
  
 
-Copycat Creature 
+12. Copycat Creature 
 
 Input: Webcam / body or pose tracking  
 
