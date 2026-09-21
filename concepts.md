@@ -192,8 +192,8 @@ How the viewer knows: The creature visibly follows their movements right away. T
 
 
 
-<img width="820" height="1180" alt="concepts 2" src="https://github.com/user-attachments/assets/f6b8220f-6b73-4f12-a084-e863c1b0071e" />
-<img width="820" height="1180" alt="concepts 1" src="https://github.com/user-attachments/assets/07cbbea5-5400-4925-80a5-126b61f78145" />
+<img width="410" height="590" alt="concepts 2" src="https://github.com/user-attachments/assets/f6b8220f-6b73-4f12-a084-e863c1b0071e" />
+<img width="410" height="590" alt="concepts 1" src="https://github.com/user-attachments/assets/07cbbea5-5400-4925-80a5-126b61f78145" />
 
 # TouchDesigner Project Examples
 
