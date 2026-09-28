@@ -138,6 +138,7 @@ Deliverables
 Ask me clarifying questions only if something essential is missing; otherwise state your assumptions and proceed.
 
 Initial results images: 
+
 <img width="520" height="273" alt="Screenshot 2026-09-23 at 11 31 15 PM" src="https://github.com/user-attachments/assets/4c433a83-e2a1-493f-904f-56f6818e23a0" />
 <img width="451" height="325" alt="Screenshot 2026-09-24 at 12 30 39 AM" src="https://github.com/user-attachments/assets/c609badc-cf6e-44a9-bbcf-dbb30bcecffc" />
 
@@ -160,3 +161,22 @@ When user shows hand, they see blue dots on index finger and thumb
 Pinch to move seed
 
 <img width="482.6" height="362.5" alt="Screenshot 2026-09-28 at 3 19 28 PM" src="https://github.com/user-attachments/assets/2b1f5129-9e99-424f-af48-b35f781cf3cb" />
+
+Once the seed is brought to the ground, it is "buried"
+
+<img width="465.5" height="401" alt="Screenshot 2026-09-28 at 3 19 35 PM" src="https://github.com/user-attachments/assets/f6bd11e1-556a-4c50-b55b-e63b5640400b" />
+
+User is prompted to smile, and then a 3 2 1 coundown occurs before taking a photo - smiling (at any point) now creates sunrays around the user, as if they are the sun helping the flower grow
+
+<img width="496.5" height="362" alt="Screenshot 2026-09-28 at 3 31 53 PM" src="https://github.com/user-attachments/assets/b13b0038-d54a-4350-bf41-fff61500042b" />
+
+The flower grows, and the photo taken previously shows up in the flower
+
+<img width="364.5" height="273" alt="Screenshot 2026-09-28 at 3 32 10 PM" src="https://github.com/user-attachments/assets/a6807f27-a78b-4be3-afeb-a15340bd9c26" />
+
+Example of the smile=sun interaction (also makes flowers grow):
+
+<img width="543.5" height="362.5" alt="Screenshot 2026-09-28 at 3 20 14 PM" src="https://github.com/user-attachments/assets/0c09be63-f218-49ff-8f54-d945b0f873b4" />
+<img width="515" height="364" alt="Screenshot 2026-09-28 at 3 20 18 PM" src="https://github.com/user-attachments/assets/7cd0652b-1572-4324-8897-4d7badc2d4c1" />
+
+
