@@ -138,7 +138,7 @@ Deliverables
 Ask me clarifying questions only if something essential is missing; otherwise state your assumptions and proceed.
 
 
-Initial results images: 
+## Initial results images: 
 
 Had a lot of trouble at first with capturing an image and transferring it to the flower.
 
