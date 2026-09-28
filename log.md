@@ -148,8 +148,8 @@ Had a lot of trouble at first with capturing an image and transferring it to the
 
 # Updates for class 9/28
 
-- Changed up the style of the mirror - going for a more "comic book" feel.
-- Also, changed the interaction from simply touching the seed in order to plant to having it to pinch and drag the seed to plant. Added visual touchpoints on the index and thumb to encourage user to use those fingers.
+- Changed up the style of the interaction - going for a more "comic book" feel.
+- Also, changed the interaction from simply being able to hold your finger up to the seed to plant it, to having to pinch and drag the seed to plant. Added visual touchpoints on the index and thumb to encourage user to use those fingers.
 
 Updated flow: 
 
