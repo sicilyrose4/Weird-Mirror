@@ -78,16 +78,16 @@ Ask me clarifying questions first only if something essential is ambiguous; othe
 
 ## Prompt:
 
-# Concept
+Concept
 A viewer looks into a computer's webcam and sees themselves on screen, with a strip of dirt along the bottom and a seed floating near the top center. When they reach up and "touch" the seed with their index finger, the seed drifts down and sinks beneath the dirt. Over about ten seconds it grows from a seed into a sprout, then a sapling, then a fully bloomed flower. Just before the flower blooms, the screen tells the viewer to smile and counts down, then takes their photo. When the flower blooms, their face sits in the center of the flower, surrounded by petals, on a full stem with leaves. Then a new seed appears for the next visitor, and over time the dirt fills up with a garden of visitors' face-flowers.
 
-## Setup
+Setup
 - Input: one webcam (use 1280x720 or 1080p at 30fps; recommend one), mirrored so it feels like a mirror.
 - Output: one landscape display, fullscreen via a Window COMP.
 - Background: the live, mirrored webcam feed, with the dirt strip, seed, flowers, and prompts overlaid on top.
 - One viewer at a time. If several people are in frame, use the largest/closest face and that person's hands.
 
-## Sequence and Timing (build this as a clear state machine)
+Sequence and Timing (build this as a clear state machine)
 1. WAITING: A seed floats near the top center of the screen, gently bobbing and glowing so it invites a touch. A small glowing dot follows the viewer's index fingertip (MediaPipe hand landmark 8) so they can see what they're touching with. Either hand works.
 2. TOUCH: When the index fingertip comes within a set radius of the seed, it counts as touched. Give instant feedback (a small pop, sparkle, or brightness flash). After this, ignore further touches until the next seed appears.
 3. FALL (about 1.5 s): The seed drifts down with a slight sway, like it's falling through air, and lands at an open spot along the dirt line (see Garden Layout).
@@ -103,32 +103,32 @@ A viewer looks into a computer's webcam and sees themselves on screen, with a st
 
 The total time from touch to full bloom should be about ten seconds. Put all stage durations in one place so I can tune them.
 
-## Face Photo
+Face Photo
 - Use face tracking to find the face in the captured frame, and crop tightly around it, expanding the crop upward slightly to include some hair.
 - The final image should show only the face and a bit of hair, with no background. Use a circular mask, and if the circle still shows too much background, remove it with MediaPipe selfie segmentation (or a similar matte) before masking. Recommend the cleanest approach.
 - If no face is detected at the moment of capture, retry for up to a second or two, then fall back to a friendly placeholder (for example a simple smiley) so the flower still blooms.
 - Photos are only shown on screen; nothing is saved to disk.
 
-## Flower Design
+Flower Design
 - Each flower has a stem, leaves, and a ring of petals surrounding the circular face photo, so together they read as one complete flower.
 - Give each flower light variety (petal color, petal count or shape, stem height, slight lean) so the garden doesn't look repetitive.
 - Build flowers procedurally (SOPs or GLSL) or from swappable transparent PNG textures; recommend whichever is easier to art-direct, and keep the art swappable so I can drop in my own designs later.
 - Bloomed flowers sway gently as if in a breeze.
 
-## Dirt and Garden Layout
+Dirt and Garden Layout
 - A dirt strip runs across the bottom of the screen (roughly the bottom 12–15%), with a slightly uneven top edge and some texture. It sits in front of seeds and roots and behind stems above the ground line.
 - Each visitor's flower stays in the garden. The seed always starts at top center but drifts toward the next open spot along the dirt as it falls, so flowers fill the ground across the screen without overlapping.
 - Cap the number of flowers (start around 10–15; suggest a good number for the screen width). When the garden is full, the oldest flower wilts and fades away to free a spot.
 - Store each flower's data (position, variation, face photo, age) in a way that scales, such as instancing with a texture array or Replicator COMP. Recommend the approach and explain how each flower keeps its own face photo.
 
-## Robustness and Performance
+Robustness and Performance
 - Target a steady 60fps output; run tracking at a lower resolution than the display if needed.
 - Smooth the fingertip position so the cursor doesn't jitter, and hold the last valid value if tracking briefly drops out.
 - Handle left/right hand swapping with a mirrored image.
 - If the viewer walks away mid-growth, the flower should still finish growing (with the placeholder face if no photo was taken).
 - Include a debug toggle showing hand landmarks, the touch radius, the current state, the stage timer, and the flower count.
 
-## Deliverables
+Deliverables
 1. A short network overview describing the main COMPs and how data flows between them.
 2. A step-by-step build guide: Webcam & Tracking → Fingertip Cursor & Touch Detection → State Machine & Timing → Seed Fall & Planting → Growth Animation → Smile Prompt & Photo Capture → Face Crop & Mask → Flower Assembly → Garden Layout → Compositing → Output, with operator names, connections, and key settings.
 3. All Python scripts and any GLSL shaders, complete and commented.
@@ -137,3 +137,23 @@ The total time from touch to full bloom should be about ten seconds. Put all sta
 
 Ask me clarifying questions only if something essential is missing; otherwise state your assumptions and proceed.
 
+Initial results images: 
+<img width="520" height="273" alt="Screenshot 2026-09-23 at 11 31 15 PM" src="https://github.com/user-attachments/assets/4c433a83-e2a1-493f-904f-56f6818e23a0" />
+<img width="451" height="325" alt="Screenshot 2026-09-24 at 12 30 39 AM" src="https://github.com/user-attachments/assets/c609badc-cf6e-44a9-bbcf-dbb30bcecffc" />
+
+
+# Updates for class 9/28
+
+- Changed up the style of the mirror - going for a more "comic book" feel.
+- Also, changed the interaction from simply touching the seed in order to plant to having it to pinch and drag the seed to plant. Added visual touchpoints on the index and thumb to encourage user to use those fingers.
+
+Updated flow: 
+
+Seed appears in top center of the screen with "plant me" text
+<img width="488.5" height="355" alt="Screenshot 2026-09-28 at 3 19 09 PM" src="https://github.com/user-attachments/assets/a5dfdabd-a6bb-400c-a54f-d0c021ec67d0" />
+
+When user shows hand, they see blue dots on index finger and thumb
+<img width="487" height="371.5" alt="Screenshot 2026-09-28 at 3 19 17 PM" src="https://github.com/user-attachments/assets/3865521b-35e2-40c2-a648-ff9f335a0eb1" />
+
+Pinch to move seed
+<img width="482.6" height="362.5" alt="Screenshot 2026-09-28 at 3 19 28 PM" src="https://github.com/user-attachments/assets/2b1f5129-9e99-424f-af48-b35f781cf3cb" />
