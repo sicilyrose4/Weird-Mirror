@@ -150,10 +150,13 @@ Initial results images:
 Updated flow: 
 
 Seed appears in top center of the screen with "plant me" text
+
 <img width="488.5" height="355" alt="Screenshot 2026-09-28 at 3 19 09 PM" src="https://github.com/user-attachments/assets/a5dfdabd-a6bb-400c-a54f-d0c021ec67d0" />
 
 When user shows hand, they see blue dots on index finger and thumb
+
 <img width="487" height="371.5" alt="Screenshot 2026-09-28 at 3 19 17 PM" src="https://github.com/user-attachments/assets/3865521b-35e2-40c2-a648-ff9f335a0eb1" />
 
 Pinch to move seed
+
 <img width="482.6" height="362.5" alt="Screenshot 2026-09-28 at 3 19 28 PM" src="https://github.com/user-attachments/assets/2b1f5129-9e99-424f-af48-b35f781cf3cb" />
