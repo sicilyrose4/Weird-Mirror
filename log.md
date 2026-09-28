@@ -17,8 +17,8 @@ https://github.com/user-attachments/assets/30eaff19-bb54-45b6-9c13-fe776d494be3
 
 
 # 9/22: Attempted to create a puppet interaction. My prompt and images I provided to Claude shown below.
-<img width="2779" height="2425" alt="Puppeteer-02" src="https://github.com/user-attachments/assets/946098cf-5dd7-4f20-aa55-9219840058ad" />
-<img width="3680" height="2437" alt="Puppeteer-01" src="https://github.com/user-attachments/assets/e4d0101a-8cad-4655-8237-a0934ab1a8e6" />
+<img width="694.75" height="606.25" alt="Puppeteer-02" src="https://github.com/user-attachments/assets/946098cf-5dd7-4f20-aa55-9219840058ad" />
+<img width="736" height="487.4" alt="Puppeteer-01" src="https://github.com/user-attachments/assets/e4d0101a-8cad-4655-8237-a0934ab1a8e6" />
 
 ## Prompt for Puppeteer Interaction:
 
