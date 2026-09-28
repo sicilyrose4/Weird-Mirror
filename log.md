@@ -177,6 +177,8 @@ The flower grows, and the photo taken previously shows up in the flower
 
 <img width="364.5" height="273" alt="Screenshot 2026-09-28 at 3 32 10 PM" src="https://github.com/user-attachments/assets/a6807f27-a78b-4be3-afeb-a15340bd9c26" />
 
+
+
 Example of the smile=sun interaction (also makes flowers grow):
 
 <img width="543.5" height="362.5" alt="Screenshot 2026-09-28 at 3 20 14 PM" src="https://github.com/user-attachments/assets/0c09be63-f218-49ff-8f54-d945b0f873b4" />
