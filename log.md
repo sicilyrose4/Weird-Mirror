@@ -137,7 +137,10 @@ Deliverables
 
 Ask me clarifying questions only if something essential is missing; otherwise state your assumptions and proceed.
 
+
 Initial results images: 
+
+Had a lot of trouble at first with capturing an image and transferring it to the flower.
 
 <img width="520" height="273" alt="Screenshot 2026-09-23 at 11 31 15 PM" src="https://github.com/user-attachments/assets/4c433a83-e2a1-493f-904f-56f6818e23a0" />
 <img width="451" height="325" alt="Screenshot 2026-09-24 at 12 30 39 AM" src="https://github.com/user-attachments/assets/c609badc-cf6e-44a9-bbcf-dbb30bcecffc" />
