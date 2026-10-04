@@ -185,9 +185,18 @@ Example of the smile=sun interaction (also makes flowers grow):
 <img width="515" height="364" alt="Screenshot 2026-09-28 at 3 20 18 PM" src="https://github.com/user-attachments/assets/7cd0652b-1572-4324-8897-4d7badc2d4c1" />
 
 
-# Updates for class 9/30
+# Updates after testing
+<img width="462" height="266.5" alt="Screenshot 2026-10-04 at 3 35 24 PM" src="https://github.com/user-attachments/assets/f69b184d-cf8e-41f6-9e72-ff134c07d475" />
+<img width="459.5" height="279.5" alt="Screenshot 2026-10-04 at 3 33 36 PM" src="https://github.com/user-attachments/assets/9edcbbb1-6ed6-4ca5-b048-87e270862d9a" />
+<img width="444.5" height="279.5" alt="Screenshot 2026-10-04 at 3 33 22 PM" src="https://github.com/user-attachments/assets/897b05ea-c0e4-46d0-a8e1-39eaa5667e50" />
 
-- Seed can be moved with either pinching or grabbing motion (before was just pinching)
+Notes
+- Both users had the instinct to do a grabbing motion instead of pinching to grab the seed
+- They immediately recognized what was happening, and had a positive reaction when they saw their face in the flower
+- They were smiling for basically the whole time, so the sun was almost always shining. Not necessarily a bad thing, but an observation.
+
+Changes
+-  Seed can be moved with either pinching or grabbing motion (before was just pinching)
 - Updated the filter a bit to look good in multiple lighting styles
 - Rain appears when two palms are visible on screen
 - Fixed the scissors mechanic a bit (still thinking of other ways that "remove flower" action could be perfomed).
