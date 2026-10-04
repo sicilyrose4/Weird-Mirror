@@ -194,9 +194,11 @@ Notes
 - Both users had the instinct to do a grabbing motion instead of pinching to grab the seed
 - They immediately recognized what was happening, and had a positive reaction when they saw their face in the flower
 - They were smiling for basically the whole time, so the sun was almost always shining. Not necessarily a bad thing, but an observation.
+- Effect looked off in yellow lighting.
 
 Changes
 -  Seed can be moved with either pinching or grabbing motion (before was just pinching)
 - Updated the filter a bit to look good in multiple lighting styles
 - Rain appears when two palms are visible on screen
 - Fixed the scissors mechanic a bit (still thinking of other ways that "remove flower" action could be perfomed).
+- Lightened up the cartoon effect
