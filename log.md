@@ -193,7 +193,6 @@ Example of the smile=sun interaction (also makes flowers grow):
 Notes
 - Both users had the instinct to do a grabbing motion instead of pinching to grab the seed
 - They immediately recognized what was happening, and had a positive reaction when they saw their face in the flower
-- They were smiling for basically the whole time, so the sun was almost always shining. Not necessarily a bad thing, but an observation.
 - Effect looked off in yellow lighting.
 - Asked "how do I make it rain?" (Clouds give the assumption that rain could happen?)
 - Made comments about it being "a game" to try to get the seed into the ground (it felt a little difficult because they were doing the wrong motion, but it was still half-working).
