@@ -197,10 +197,14 @@ Notes
 - Effect looked off in yellow lighting.
 - Asked "how do I make it rain?" (Clouds give the assumption that rain could happen?)
 - Made comments about it being "a game" to try to get the seed into the ground (it felt a little difficult because they were doing the wrong motion, but it was still half-working).
+- Flower removal with shears was not discoverable (although they didn't have the desire to remove the flowers until I asked them how they might do that)
 
-Changes
+Changes 10/2
 -  Seed can be moved with either pinching or grabbing motion (before was just pinching)
 - Updated the filter a bit to look good in multiple lighting styles
 - Rain appears when two palms are visible on screen
 - Fixed the scissors mechanic a bit (still thinking of other ways that "remove flower" action could be perfomed).
 - Lightened up the cartoon effect
+
+Changes 10/5
+- For flower removal, the user can now hold both hands onto the screen to make the clouds "snow". This will make the flowers shrink, and snow gather on the ground. When the user's hands go away, the snow stops, and the snow on the ground melts, but the flowers remain gone. This is the new flower removal action (a bit less jarring than the scissors.)
