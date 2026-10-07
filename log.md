@@ -207,3 +207,12 @@ Changes 10/2
 
 Changes 10/5
 - For flower removal, the user can now hold both hands onto the screen to make the clouds "snow". This will make the flowers shrink, and snow gather on the ground. When the user's hands go away, the snow stops, and the snow on the ground melts, but the flowers remain gone. This is the new flower removal action (a bit less jarring than the scissors.)
+
+Changes 10/6
+- Removed the ability to remove flowers with the scissors. It was a bit too easy to do it accidentally. With the snow, there is a transition period during removal while the flowers shrink.
+- I realized that the sun/smiling flower growing animation was overriding the hands up/snowing flower shrinking animation. In other words, the flowers would not shrink in response to snow when the user is smiling. I flipped the override by making snow always shrink flowers, even if they are smiling.
+
+# Video
+
+Took a combination of screen-capture recording and iphone videos of the user interacting to get a full understanding of the interaction.
+https://vimeo.com/1233602707?share=copy&fl=sv&fe=ci 
